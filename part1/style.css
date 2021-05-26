@@ -1,0 +1,32 @@
+body{
+display: flex;
+justify-content: center;
+}
+
+.container{
+    min-height: 150px;
+    width: 400px;
+    display: flex;
+    outline: black solid 5px;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+
+.paragraph{
+display: flex;
+}
+
+.insidecont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.likebtn{
+    height: 30px;
+    width: 50px;
+    background-color: khaki;
+}

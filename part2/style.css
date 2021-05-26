@@ -1,0 +1,99 @@
+#feed{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.page{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav{
+        width: 100vw;
+        height: 70px;
+        background-color: black;
+        display: flex;
+        
+    }
+
+    .header{
+        color: white;
+    }
+    
+    .container{
+        min-height: 150px;
+        width: 400px;
+        display: flex;
+        outline: black solid 5px;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    
+    .paragraph{
+    display: flex;
+    }
+    
+    .insidecont{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .likebtn{
+        height: 30px;
+        width: 50px;
+        background-color: khaki;
+    }
+
+    .container2{
+        min-height: 150px;
+        width: 400px;
+        display: flex;
+        outline: black solid 5px;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .container3{
+        min-height: 150px;
+        width: 400px;
+        display: flex;
+        outline: black solid 5px;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .container4{
+        display: flex;
+        outline: black solid 5px;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 10px;
+        min-height: 250px;
+        width: 200px;
+    }
+    
+    .infocontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont4{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #profile{
+        height: 70px;
+        width: 70px;
+    }
